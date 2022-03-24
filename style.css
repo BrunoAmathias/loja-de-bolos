@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+*{margin: 0;
+padding: 0;}
+
+
+.header{
+    display: flex;
+    flex-direction: row; 
+    align-items: center ;
+    justify-content: space-between;
+    padding-left:100px ;
+    padding-right: 50px;
+    border-bottom: 6px solid pink;
+    
+    
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+.imagemtop{ 
+    max-width: 180px;
+
+}
+.links:hover{
+    color: #ff69a1;
+    text-shadow: 0px 0px 20px #ff69a1;
+   
+}
+
+.imagem-transiçao{
+    background-image: url(imagens/doces1.jpg) ;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed ;
+    border-bottom: 6px solid pink;
+    
+}
+#fotofundo{
+    background-image: url(imagens/fundo.png);
+    height: 100%;
+    width: 100%
+    
+    ;
+}
+
+.sobrenos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+    border-bottom: 6px solid pink;
+}
+.fotoapresentacao{
+    max-width: 450px;
+    margin-left: 60px;
+    border: 6px solid pink;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+    
+.apresentacao{
+    background-color: rgba(255, 255, 255, 0.8);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 650px;
+    font-size:  24px;
+    font-family: 'Architects Daughter', cursive;
+    border: 6px solid pink;
+    border-radius: 40px;
+    padding: 10px;
+    margin-left: 100px;
+    
+
+}
+.apresentacaoprodutos{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 50px;
+    
+}
+.imagens-bolos{
+    display: flex;
+justify-content: space-around;
+padding-bottom: 100px;
+margin-top: 50px;
+border-bottom: 6px solid pink;
+
+
+}
+
+
+#bolo{
+    padding: 20px;
+    width: 350px;
+    border: 6px solid rgb(255, 192, 203);
+border-radius: 20%;
+background-color: rgba(255, 192, 203, 0.6)
+}
+#bolo1{
+    background-color: rgba(255, 192, 203, 0.6);
+    padding: 20px;
+    width: 350px;
+    border: 6px solid pink;
+border-radius: 20%;
+}
+
+#bolo2{
+    background-color: rgba(255, 192, 203, 0.6);
+    padding: 20px;
+    width: 350px;
+    border: 6px solid pink;
+border-radius: 20%;
+}
+
+.apresentacaoprodutosp{
+text-align: center;
+font-size: 60px;
+margin-top: 50px;
+
+}
+
+.imagens-bolosp{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    border-bottom: 6px solid pink;
+}
+
+
+#bolop{
+    padding: 20px;
+    width: 350px;
+    border: 6px solid rgb(255, 192, 203);
+border-radius: 20%;
+background-color: rgba(255, 192, 203, 0.6)
+
+}
+    
+#bolop1{
+    padding: 20px;
+    width: 350px;
+    border: 6px solid rgb(255, 192, 203);
+border-radius: 20%;
+background-color: rgba(255, 192, 203, 0.6)
+} 
+#bolop2{
+    padding: 20px;
+    width: 350px;
+    border: 6px solid rgb(255, 192, 203);
+border-radius: 20%;
+background-color: rgba(255, 192, 203, 0.6)
+ }   
+.cardapio{
+  display: flex;
+  justify-content:  space-around;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 6px solid pink;
+  
+  
+}
+.cardapio1{
+    width: 37%;
+    height: 30%;
+border: 4px solid black;
+border-radius: 20%;
+
+
+}
+
+
+.apresentacaocardapio{
+    text-align: center;
+    font-size: 60px;
+margin-top: 50px;
+}
+footer{
+    background-image: url(imagens/footer.jpg);
+}
+
+.containerfooter{
+    display: flex;
+    justify-content: space-around;
+padding: 20px;
+
+}
+.imagemgoogle iframe {
+    border-radius: 30px;
+    
+}
+.lista {
+    list-style:none;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 24px;
+    
+}   
+li{ padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1000px){
+.header{
+    display: flex;
+    flex-direction: column
+  }
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding:20px ;
+
+  }
+
+.imagemtop {
+    margin: auto;
+}
+.imagem-transiçao{
+    background-image: none;
+    height: 0;
+    width: 0;
+}
+
+.sobrenos{
+    display: flex;
+    flex-direction: column;
+
+}
+.fotoapresentacao{
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+
+
+}
+.apresentacao{
+    margin: auto;
+    margin: 7px;
+
+}
+
+.cardapio{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    
+    
+}
+.cardapio1{
+    margin: auto;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 100%;
+
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1230px){
+    .imagens-bolos{
+        display: flex;
+        flex-direction: column;
+        
+        
+       
+    }
+    #bolo{
+        margin: auto;
+        margin-bottom: 10px;
+    
+    }
+    #bolo1{
+        margin: auto;
+        margin-bottom: 10px;
+    
+    }
+    #bolo2{
+        margin: auto;
+        margin-bottom: 10px;
+    
+    }
+    
+    .imagens-bolosp{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #bolop{
+        margin: auto;
+        margin-bottom: 10px
+    
+    }
+    #bolop1{
+        margin: auto;
+        margin-bottom: 10px
+    
+    }
+    #bolop2{
+        margin: auto;
+        margin-bottom: 10px
+    
+    }
+
+
+}
+    
+@media  screen and ( max-width:800px) {
+
+    .containerfooter{
+        display: flex;
+        flex-direction: column;
+    }
+}
